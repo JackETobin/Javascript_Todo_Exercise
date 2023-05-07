@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="ToDoStyle.css" />
+    <script src="ToDoMain.js"></script>
+  </head>
+  <body
+    class="TodoBody"
+    id="Body"
+    onload="SetAccessTime(); KeystrokeListener();"
+  >
+    <div class="Wrapper" id="wrapper">
+      <div class="TodoHeader">
+        <h1 class="FontandColor TodoTitle">THE TODO LIST</h1>
+        <label class="FontandColor InputLabel" for="TodoEntry"
+          >ENTER AN ITEM:</label
+        >
+        <br />
+        <input class="InputBox" type="text" id="NewMessage" value="" />
+        <button class="AddButton" id="AddBtn" onclick="AddElement()">
+          Add
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

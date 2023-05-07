@@ -1,0 +1,124 @@
+.TodoBody
+{
+    background-color:rgb(115, 134, 168);    
+}
+.Wrapper
+{
+    margin: auto;
+    border: 0px solid aliceblue;
+    width: auto;
+    max-width: 900px;
+    display: -ms-inline-grid;
+}
+.TodoHeader
+{    
+    margin: auto;
+    text-align: center;
+    width:100%;
+    padding-bottom: 8%;
+    border: 0px solid aliceblue;
+}
+.FontandColor
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:aliceblue;
+}
+.TodoTitle
+{    
+    font-size: min(8em, 9vw);
+    position:auto;
+    line-height: 0;
+}
+.InputLabel
+{
+    position: auto;
+    font-size: 15pt;
+    line-height: 3;
+}
+.InputBox
+{   
+    cursor: pointer;
+    position:relative;    
+    width: auto;
+    height: 52px;
+    color:aliceblue;
+    background-color:rgb(115, 134, 168);
+    border-radius: 15px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    outline: none;
+    font-size: 43px;    
+}
+.AddButton
+{
+    cursor: pointer;    
+    color:aliceblue;
+    position:relative;
+    background-color:rgb(115, 134, 168);
+    width: 100px;
+    height: 60px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 43px;
+}
+.Element
+{    
+    width: 90%;
+    border: 3px solid aliceblue;
+    border-radius: 15px;
+    padding: 1%;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 20pt;
+    text-align:center;
+    position:relative;
+    overflow-wrap: break-word;
+}
+.CompleteButton
+{
+    cursor: pointer;
+    background: transparent;
+    height:45px;
+    width: 45px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    opacity: 0.4;
+    transition: 0.4s;    
+}
+.CompleteButton:hover
+{
+    opacity: 1;   
+}
+.CompleteImg
+{
+    width:100%;
+    display: block;  
+}
+.DeleteButton
+{
+    cursor: pointer;
+    background: transparent;
+    height: 40px;
+    width: 43px;
+    outline: none;
+    border: none;
+    margin-left: 8px;
+    opacity: 0.4;
+    transition: 0.4s;
+}
+.DeleteButton:hover
+{
+    opacity: 1;
+}
+.DeleteImg
+{
+    width: 100%;
+    display: block;
+}
